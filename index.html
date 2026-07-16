@@ -13,6 +13,13 @@
 </head>
 
 <body>
+    <div class="site-aurora">
+        <div class="aurora-blob site-blob-a"></div>
+        <div class="aurora-blob site-blob-b"></div>
+        <div class="aurora-blob site-blob-c"></div>
+        <div class="aurora-blob site-blob-d"></div>
+        <div class="aurora-blob site-blob-e"></div>
+    </div>
     <header>
         <nav>
             <div class="logo">
@@ -37,17 +44,10 @@
 
     <section id="hero">
         <div class="hero-background">
-            <div class="floating-dots">
-                <div class="dot dot1"></div>
-                <div class="dot dot2"></div>
-                <div class="dot dot3"></div>
-                <div class="dot dot4"></div>
-                <div class="dot dot5"></div>
-            </div>
-            <div class="connecting-lines">
-                <div class="line line1"></div>
-                <div class="line line2"></div>
-                <div class="line line3"></div>
+            <div class="aurora">
+                <div class="aurora-blob blob1"></div>
+                <div class="aurora-blob blob2"></div>
+                <div class="aurora-blob blob3"></div>
             </div>
             <div class="code-elements">
                 <div class="code-snippet code1">function develop() {
@@ -83,8 +83,9 @@
         <div class="hero-content">
             <h1>Hi, I'm <span class="highlight">Ayush Maheshwari</span></h1>
             <h2>Senior Software Developer</h2>
-            <p>Senior Software Engineer with 3+ years of experience building scalable backend systems using Java, Spring
-                Boot, and event-driven architectures.
+            <p>Senior Software Engineer with 4.5+ years of experience building scalable backend systems and AI-driven
+                automation using Java, Spring Boot, event-driven architectures, and modern AI tooling (Claude, OpenAI,
+                MCP).
                 Expertise in designing high-throughput systems, reducing latency, and improving reliability using Redis,
                 RabbitMQ, and cloud platforms.
                 Proven track record of delivering business-critical features like payment systems, automation engines,
@@ -92,7 +93,7 @@
             <div class="hero-stats">
                 <div class="stat">
                     <div class="stat-icon">🚀</div>
-                    <h3>4.3+</h3>
+                    <h3>4.5+</h3>
                     <p>Years Experience</p>
                     <div class="stat-progress">
                         <div class="progress-bar" style="width: 87.5%"></div>
@@ -130,7 +131,7 @@
                         <div class="about-image">
                             <img src="profile.jpg" alt="Ayush Maheshwari" class="profile-image">
                             <div class="experience-badge">
-                                <span class="number">4.3+</span>
+                                <span class="number">4.5+</span>
                                 <span class="text">Years<br>Experience</span>
                             </div>
                         </div>
@@ -147,7 +148,7 @@
                             <div class="key-points mb-4">
                                 <div class="point">
                                     <i class="fa fa-check-circle"></i>
-                                    <span>4.3+ years of experience</span>
+                                    <span>4.5+ years of experience</span>
                                 </div>
                                 <div class="point">
                                     <i class="fa fa-check-circle"></i>
@@ -160,6 +161,10 @@
                                 <div class="point">
                                     <i class="fa fa-check-circle"></i>
                                     <span>Strong problem-solving skills</span>
+                                </div>
+                                <div class="point">
+                                    <i class="fa fa-check-circle"></i>
+                                    <span>Skilled at leveraging AI (Claude/OpenAI) for faster, higher-quality delivery</span>
                                 </div>
                             </div>
 
@@ -184,7 +189,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="stat-card">
-                                        <div class="stat-number">4.3+</div>
+                                        <div class="stat-number">4.5+</div>
                                         <div class="stat-label">Years Experience</div>
                                     </div>
                                 </div>
@@ -207,6 +212,21 @@
                         <h4>Drinkprime, Bengaluru</h4>
                         <p class="duration"><i class="fas fa-calendar"></i> March 2023 – Present</p>
                         <div class="achievements">
+                            <div class="achievement">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Built an automated PR tracker (Slack bot + scheduled GitHub Actions workflow)
+                                    that runs every morning at 9 AM, reporting all open/pending PRs with linked
+                                    tickets, assignee, raised-by, and days pending</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Architected an end-to-end auto-routing engine that confirms customer availability
+                                    each morning via automated IVR calls and WhatsApp messages, auto-assigns available
+                                    jobs to the nearest technician using live geolocation and best-route optimization,
+                                    optimizes each technician's final job of the day for proximity to their current
+                                    location and route home, and supports priority-based job assignment with added
+                                    technician incentives</span>
+                            </div>
                             <div class="achievement">
                                 <i class="fas fa-check-circle"></i>
                                 <span>Adopted event-driven architecture using RabbitMQ, reducing database overhead by
@@ -244,6 +264,20 @@
                                 <span>Engineered a scalable lead creation system with loosely coupled services to
                                     respect CRM rate limits, enabling reliable lead syncing and achieving near-zero data
                                     loss</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Built MCP (Model Context Protocol) clients and tools, enabling AI agents to
+                                    interact directly with internal systems</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Integrated AI capabilities with internal REST APIs to power automated workflows</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Enabled tool calling and structured responses for reliable agent-to-system
+                                    communication</span>
                             </div>
                         </div>
                     </div>
@@ -416,6 +450,21 @@
                                 alt="VSCode">
                             <span>VSCode</span>
                         </div>
+                        <div class="tech-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                                alt="Jira">
+                            <span>Jira</span>
+                        </div>
+                        <div class="tech-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub" class="icon-invert-dark">
+                            <span>GitHub</span>
+                        </div>
+                        <div class="tech-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg"
+                                alt="Bitbucket">
+                            <span>Bitbucket</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -458,6 +507,7 @@
                 <li><a href="https://drive.google.com/file/d/1jQoqNF3IsHOvBMKRYSkbN0n8_hOxPjMn/view" target="_blank"
                         class="certificate-link">Rashtrapati Award in Scout 🏆</a></li>
                 <li>Hackwithinfy (Infosys) Finalist</li>
+                <li>Team Player &amp; Star Performer Awards at DrinkPrime 🏆</li>
             </ul>
         </div>
     </section>
@@ -501,34 +551,64 @@
         <div class="container">
             <h2>Key Achievements at DrinkPrime</h2>
             <div class="achievement-card">
+                <h3>Auto-Routing: Automated Technician Job Assignment</h3>
+                <p>Designed and built an end-to-end auto-routing system for field technician scheduling. Every morning
+                    it triggers an automated IVR call and WhatsApp message to confirm the customer is present at the
+                    service location; responses are processed through a queue and used to mark customers available in
+                    real time. Available jobs are then auto-assigned to the nearest technician based on live
+                    technician and job locations using best-route optimization, and at the end of the day each
+                    technician's last job is chosen by optimizing for proximity between their current location, the
+                    nearest pending job, and their route home. A priority-assignment layer lets high-priority jobs jump
+                    the queue, with added incentives for technicians who complete them.</p>
+                <p><strong>Technologies:</strong> Java, Spring Boot, IVR/Telephony API, WhatsApp Business API, RabbitMQ,
+                    Geolocation & Route Optimization, PostgreSQL</p>
+                <p><strong>Impact:</strong> <strong class="highlight-text">Fully automated</strong> customer
+                    availability confirmation and technician job assignment, enabling a
+                    <strong class="highlight-text">reduction of the CX and Ops team size by approx. 50%</strong>
+                    while improving route efficiency and technician utilization</p>
+            </div>
+            <div class="achievement-card">
                 <h3>Event-Driven Architecture with RabbitMQ</h3>
                 <p>Implemented asynchronous processing to reduce database overhead and improve scalability in a
                     high-traffic application.</p>
                 <p><strong>Technologies:</strong> Java, Spring Boot, RabbitMQ</p>
-                <p><strong>Impact:</strong> Reduced database load by 60%, improved response times by 50%</p>
+                <p><strong>Impact:</strong> <strong class="highlight-text">Reduced database load by 60%</strong>,
+                    <strong class="highlight-text">improved response times by 50%</strong></p>
             </div>
             <div class="achievement-card">
                 <h3>Dynamic Banner System</h3>
                 <p>Built a Redis-cached banner system for instant updates, eliminating the need to release app versions
                     for banner changes and reducing database calls on home screen load.</p>
                 <p><strong>Technologies:</strong> Java, Redis, Spring Boot</p>
-                <p><strong>Impact:</strong> Eliminated app releases for banner updates, removed database overhead on
-                    home screen loads</p>
+                <p><strong>Impact:</strong> <strong class="highlight-text">Eliminated app releases for banner
+                    updates</strong>, <strong class="highlight-text">removed database overhead on home screen
+                    loads</strong></p>
             </div>
             <div class="achievement-card">
                 <h3>Automated Refund System</h3>
                 <p>Developed a rule-based system for one-click refunds, reducing issues by 90%.</p>
                 <p><strong>Technologies:</strong> Java, Spring Boot, Hibernate</p>
-                <p><strong>Impact:</strong> 90% reduction in refund issues</p>
+                <p><strong>Impact:</strong> <strong class="highlight-text">90% reduction in refund issues</strong></p>
             </div>
             <div class="achievement-card">
-                <h3>Automated Job Assignment System</h3>
-                <p>Built an intelligent job assignment algorithm that matches technicians based on skill sets and
-                    optimizes routing to minimize travel time, increasing technician output and reducing operations team
-                    workload by multifold.</p>
-                <p><strong>Technologies:</strong> Java, Spring Boot, PostgreSQL, Routing Algorithms</p>
-                <p><strong>Impact:</strong> Multi-fold reduction in operations workload, optimized technician efficiency
-                </p>
+                <h3>AI Agent Tooling via MCP</h3>
+                <p>Built MCP (Model Context Protocol) clients and tools that let AI agents call internal systems
+                    directly, integrating AI capabilities with internal REST APIs and enabling structured, tool-calling
+                    based communication for automated workflows.</p>
+                <p><strong>Technologies:</strong> Model Context Protocol (MCP), Java, Spring Boot, REST APIs</p>
+                <p><strong>Impact:</strong> <strong class="highlight-text">Enabled AI agents to reliably invoke
+                    internal tools and APIs</strong>, laying the groundwork for
+                    <strong class="highlight-text">automated, agent-driven workflows</strong></p>
+            </div>
+            <div class="achievement-card">
+                <h3>Automated PR Tracker (Slack + GitHub Actions)</h3>
+                <p>Built a Slack bot backed by a scheduled GitHub Actions workflow that runs every morning at 9 AM,
+                    posting a summary of all open/pending pull requests — including the linked ticket, who raised the
+                    PR, who it's currently pending on, and how many days it has been open.</p>
+                <p><strong>Technologies:</strong> GitHub Actions, GitHub API, Slack Bot API</p>
+                <p><strong>Impact:</strong> <strong class="highlight-text">Gave the team daily visibility into stale
+                    PRs</strong>, <strong class="highlight-text">cutting down manual follow-ups and shortening review
+                    turnaround time</strong></p>
             </div>
         </div>
     </section>
